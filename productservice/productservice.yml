@@ -12,7 +12,7 @@
 
 #--------------db----------------
 mybatis.type-aliases-package: "org.ebook.product.domain"
-mybatis.mapper-locations: "classpath:mybatis/org.ebook.product/*.xml"
+mybatis.mapper-locations: "classpath:mybatis/org/ebook/product/*.xml"
 
 spring.datasource.driverClassName: "com.mysql.jdbc.Driver"
 spring.datasource.url: "jdbc:mysql://localhost:3306/book-product?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull"
